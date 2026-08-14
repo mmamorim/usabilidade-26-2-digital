@@ -31,6 +31,7 @@ Navegadores (ou browsers) são programas usados para acessar e exibir páginas d
 
 Cada navegador possui um motor de renderização próprio, como **Blink** (Google Chrome, Microsoft Edge), **WebKit** (Safari) e **Gecko** (Firefox).
 
+Curiosidade: Assistir o documentário em [A guerra dos Navegadores](https://www.youtube.com/watch?v=yggAiSFD4Sw)
 
 ### W3C
 
