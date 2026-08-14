@@ -1,6 +1,6 @@
 <img src="/assets/teste.svg" width="100%">
 
-# Aula 1 - 12/02/26
+# Aula 1 - 14/08/26
 
 ## Apresentação da UC
 

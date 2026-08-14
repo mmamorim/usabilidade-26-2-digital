@@ -1,6 +1,6 @@
 <img src="/assets/teste.svg" width="100%">
 
-# Aula 2 - 22/08/2025 - HTML
+# INTRODUÇÃO HTML
 
 --- 
 
