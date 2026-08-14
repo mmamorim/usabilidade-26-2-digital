@@ -5,7 +5,7 @@
 --- 
 
 ## O que é HTML?
-HTML (HyperText Markup Language) é a linguagem padrão para criar páginas da web.  
+HTML (HyperText Markup Language) é um [XML](https://pt.wikipedia.org/wiki/XML) a linguagem padrão para criar páginas da web.  
 Define a **estrutura do conteúdo**, utilizando elementos chamados **tags** para organizar textos, imagens, links, vídeos e outros recursos.
 
 --- 
