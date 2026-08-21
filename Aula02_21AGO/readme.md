@@ -10,6 +10,13 @@ JavaScript® (às vezes abreviado para JS) é uma linguagem leve, interpretada e
 
 O padrão JavaScript é ECMAScript. Desde 2012, todos os navegadores modernos possuem suporte total ao ECMAScript 5.1. Navegadores mais antigos suportam pelo menos ECMAScript 3. Em 17 de Junho de 2015, a ECMA International publicou a sexta versão do ECMAScript, que é oficialmente chamado de ECMAScript 2015, e foi inicialmente conhecido como ECMAScript 6 ou ES6. Desde então, as especificações do ECMAScript são lançadas anualmente. A última versão de referência, é atualmente a ECMAScript 2018.
 
+# ANtes de começar:
+
+> ESTUDAR OPERADORES ARITMÉTICOS
+> ESTUDAR O OPERADOR DE RESTO DA DIVISÃO - MOD
+
+---
+
 # Variáveis
 
 **Variáveis** são contêineres que armazenam valores. Você começa declarando uma variável com a palavra-chave ```let```, seguida do nome que você dá à variável:
