@@ -20,3 +20,4 @@
     - Variáveis e Tipos de dados
     - Entrada / Saída de Dados em JavaScript
     - Desvios Condicionais
+    - [Exercícios](./Aula02_21AGO/exercicios.md)
