@@ -13,6 +13,7 @@ O padrão JavaScript é ECMAScript. Desde 2012, todos os navegadores modernos po
 # ANtes de começar:
 
 > ESTUDAR OPERADORES ARITMÉTICOS
+> 
 > ESTUDAR O OPERADOR DE RESTO DA DIVISÃO - MOD
 
 ---
