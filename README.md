@@ -15,3 +15,8 @@
     - Apresentação da UC
     - [Introdução HTML](./Aula01_14AGO/html-intro.md)
     - [Atividade](./Aula01_14AGO/Atividade.md)
+* [Aula 02](./Aula02_21AGO/) (21/08) 
+    - Intro Javascript
+    - Variáveis e Tipos de dados
+    - Entrada / Saída de Dados em JavaScript
+    - Desvios Condicionais
