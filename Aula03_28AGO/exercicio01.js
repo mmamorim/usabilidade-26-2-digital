@@ -3,7 +3,7 @@ console.log("carreguei exercicio01.js");
 
 function calcular() {
     console.log("passei aqui");
-    
+
     let elemA1 = document.getElementById("notaA1")
     let elemA2 = document.getElementById("notaA2")
     let elemA3 = document.getElementById("notaA3")
@@ -12,20 +12,23 @@ function calcular() {
     let notaA2 = parseInt(elemA2.value)
     let notaA3 = parseInt(elemA3.value)
 
-    console.log(notaA1,notaA2,notaA3);
-    let media =  (notaA1 * 30 + notaA2 * 30 + notaA3 * 40) / 100;
+    console.log(notaA1, notaA2, notaA3);
+    let media = (notaA1 * 30 + notaA2 * 30 + notaA3 * 40) / 100;
     console.log(media);
-    
+
     let elemResp = document.getElementById("resp")
     elemResp.innerText = media
 
-    if(media < 3) {
+    if (media < 30) {
         console.log("REPROVADO!");
+        document.getElementById("resp2").innerText = "REPROVADO!"
     } else {
-        if(media < 7) {
+        if (media < 70) {
             console.log("AI!");
+            document.getElementById("resp2").innerText = "AI!"
         } else {
             console.log("APROVADO!");
+            document.getElementById("resp2").innerText = "APROVADO!"
         }
     }
 
