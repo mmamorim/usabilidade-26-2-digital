@@ -32,6 +32,10 @@ O programa deve:
 IMC = peso / (altura * altura);
 ~~~
 
+Bonus fazer com desvios condicionais imprimindo a classificação
+
+<img src="./tabela_imc.jpg" width="100%">
+
 4. Exibir o valor do IMC na tela.
 
 

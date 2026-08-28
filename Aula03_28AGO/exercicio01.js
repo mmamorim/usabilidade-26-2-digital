@@ -19,4 +19,14 @@ function calcular() {
     let elemResp = document.getElementById("resp")
     elemResp.innerText = media
 
+    if(media < 3) {
+        console.log("REPROVADO!");
+    } else {
+        if(media < 7) {
+            console.log("AI!");
+        } else {
+            console.log("APROVADO!");
+        }
+    }
+
 }
