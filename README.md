@@ -19,5 +19,8 @@
     - Intro Javascript
     - Variáveis e Tipos de dados
     - Entrada / Saída de Dados em JavaScript
-    - Desvios Condicionais
     - [Exercícios](./Aula02_21AGO/exercicios.md)
+* [Aula 03](./Aula03_28AGO/) (28/08) 
+    - Javascript - A Revanche!
+    - Entrada de dados com HTML
+    - Desvios Condicionais
