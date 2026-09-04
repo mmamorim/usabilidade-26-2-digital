@@ -24,5 +24,15 @@ function adicionar() {
 }
 
 function remover() {
-    
+    console.log("Clicou no botão remover");
+    frutas.pop()
+
+    let elem = document.getElementById("cxaLista")
+    let bloco = "<ol>"
+    for(let fruta of frutas) {
+        bloco = bloco + "<li>"+fruta+"</li>"
+    }
+    bloco = bloco + "</ol>"
+    console.log(bloco);    
+    elem.innerHTML = bloco
 }
