@@ -35,7 +35,7 @@ O bloco de código será executado **enquanto a condição for verdadeira**.
 ### Exemplo
 
 ~~~javascript
-int contador = 1;
+let contador = 1;
 
 while (contador <= 5) {
     System.out.println(contador);
