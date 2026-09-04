@@ -24,3 +24,7 @@
     - Javascript - A Revanche!
     - Entrada de dados com HTML
     - Desvios Condicionais
+* [Aula 04](./Aula04_04SET/) (04/09) 
+    - Javascript - O Retorno!
+    - Laços de repetição
+    - Vetores e Objetos
