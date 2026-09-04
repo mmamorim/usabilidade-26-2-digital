@@ -38,7 +38,7 @@ O bloco de código será executado **enquanto a condição for verdadeira**.
 let contador = 1;
 
 while (contador <= 5) {
-    System.out.println(contador);
+    console.log(contador);
     contador++;
 }
 ~~~
@@ -65,7 +65,7 @@ for (inicializacao; condicao; incremento) {
 
 ~~~javascript
 for (int i = 1; i <= 5; i++) {
-    System.out.println(i);
+    console.log(i);
 }
 ~~~
 
