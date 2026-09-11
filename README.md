@@ -28,3 +28,5 @@
     - Javascript - O Retorno!
     - Laços de repetição
     - Vetores e Objetos
+* [Aula 05](./Aula05_11SET//) (11/09) 
+    - Javascript - Funções
