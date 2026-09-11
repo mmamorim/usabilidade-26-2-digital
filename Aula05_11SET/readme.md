@@ -8,6 +8,33 @@
 
 ---
 
+# Geração de Números aleatórios
+
+Para sortear um número inteiro aleatório entre dois valores x e y incluindo ambos, você pode usar a função Math.random() combinada com arredondamento.Função em JavaScript
+
+~~~js
+function numeroAleatorio(min, max) {
+  const x = Math.ceil(min);
+  const y = Math.floor(max);
+  return Math.floor(Math.random() * (y - x + 1)) + x;
+}
+~~~
+
+Exemplo de uso (sorteia entre 1 e 10):
+~~~js
+console.log(numeroAleatorio(1, 10));
+~~~
+
+Como funciona?
+
+* Math.random(): Retorna um número decimal entre 0 (inclusivo) e 1 (exclusivo).
+* Math.ceil(min): Garante que o valor mínimo (x) seja arredondado para cima caso receba um número decimal.
+* Math.floor(max): Garante que o valor máximo (y) seja arredondado para baixo.
+* y - x + 1: Define a quantidade total de números possíveis no intervalo.
+* Math.floor(...) + x: Remove as casas decimais e desloca o resultado para começar a partir do número x
+
+---
+
 # Funções em Javascript
 
 As funções em JavaScript são blocos de código reutilizáveis que permitem agrupar instruções e executá-las quando necessário. Elas desempenham um papel crucial na criação de código modular, organizado e eficiente. 
