@@ -1,7 +1,14 @@
+import { sorteiaNumero } from "./sorteios.js"
+import { numeroAleatorio } from "./sorteios.js"
+import nomes from "./nomes.js"
+import sobrenomes from "./sobrenomes.js"
 
 console.log("Carreguei funcoes01.js")
 
-let nomes = [ "Ana", "Beatriz", "Paulo", "Pedro" ]
+//console.log(nomes);
+//console.log(nomes.length);
+console.log(sobrenomes);
+console.log(sobrenomes.length);
 
 function fazAlgo() {
     console.log("Estou executanto a função fazAlgo")  
@@ -12,21 +19,16 @@ function bomdia(nome, idade) {
     console.log("Você tem "+idade+" anos");
 }
 
-function sorteiaNumero(limite) {
-    return parseInt(Math.random()*1000) % limite
-}
-
-function numeroAleatorio(min, max) {
-  const x = Math.ceil(min);
-  const y = Math.floor(max);
-  return Math.floor(Math.random() * (y - x + 1)) + x;
-}
-
-
 function getNome() {
-    console.log("Executando a função getNome()")
-    let idx = sorteiaNumero(4)
+    //console.log("Executando a função getNome()")
+    let idx = sorteiaNumero(nomes.length)
     return nomes[idx]
+}
+
+function getSobrenome() {
+    //console.log("Executando a função getNome()")
+    let idx = sorteiaNumero(sobrenomes.length)
+    return sobrenomes[idx]
 }
 
 //bomdia("Ana",18)
@@ -34,6 +36,10 @@ function getNome() {
 
 let nome = getNome()
 console.log("Qual o nome? "+nome);
+let sobrenome = getSobrenome()
+console.log("Qual o sobrenome? "+sobrenome);
 
-let num = numeroAleatorio(8,12)
-console.log(num);
+console.log(nome+" "+sobrenome);
+
+//let num = numeroAleatorio(8,12)
+//console.log(num);
