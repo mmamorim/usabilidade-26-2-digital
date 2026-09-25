@@ -9,7 +9,11 @@
 - Email: prof.marceloamorim@ulife.com.br
 
 ---
+### Sobre A1 ()
 
+* Semanas 2/10, 09/10 e 16/10 teremos aulas sobre IHC, Usabilidade e UX
+* A1 será dia 22/10 (QUINTA-FEIRA) Avaliação Presencial na aula do prof. Carmino
+---
 
 * [Aula 01](./Aula01_14AGO/) (14/08) 
     - Apresentação da UC
