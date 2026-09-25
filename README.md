@@ -28,5 +28,8 @@
     - Javascript - O Retorno!
     - Laços de repetição
     - Vetores e Objetos
-* [Aula 05](./Aula05_11SET//) (11/09) 
+* [Aula 05](./Aula05_11SET/) (11/09) 
     - Javascript - Funções
+* **TECH WEEK** (18/09) 
+* [Aula 06](./Aula06_25SET/) (25/09) 
+    - CONTINUAÇÃO - Javascript - Funções
