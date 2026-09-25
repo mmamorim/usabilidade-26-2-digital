@@ -1,5 +1,5 @@
 import { sorteiaNumero } from "./fakeUsers/sorteios.js"
-import { getFakeUser } from "./fakeUsers/fakeUser.js" 
+import { getFakeUser } from "./fakeUsers/fakeUser.js"
 
 //console.log("main.js carregado...")
 
@@ -12,14 +12,14 @@ let user2 = getFakeUser()
 //onsole.log(user2);
 
 function bomdia(u1, u2) {
-    console.log("Bom dia "+u2.nome+"! Tudo bem com vc?");
-    console.log("Sim...e com vc "+u1.nome+"? Tudo bem tb?");
+    console.log("Bom dia " + u2.nome + "! Tudo bem com vc?");
+    console.log("Sim...e com vc " + u1.nome + "? Tudo bem tb?");
 }
 
 //bomdia(user1, user2)
 
 function imprimeUser(user) {
-    console.log("User: ",user);    
+    console.log("User: ", user);
     return user
 }
 
@@ -29,28 +29,28 @@ let func1 = imprimeUser
 //func1(user2)
 
 let fazAlgo = function (valor) {
-    console.log("executando a função faz algo...",valor);
-} 
+    console.log("executando a função faz algo...", valor);
+}
 
-let soma = function (x,y) {
-    return x+y
+let soma = function (x, y) {
+    return x + y
 }
 
 //console.log("O que tem em fazAlgo? ",fazAlgo);
 fazAlgo(5)
-let z = soma(5,7)
+let z = soma(5, 7)
 //console.log(z);
 
 function oi(user) {
-    console.log("Oi "+user.nome+" tudo bem?");
+    console.log("Oi " + user.nome + " tudo bem?");
 }
 
 function tchau(user) {
-    console.log("Tchau "+user.nome+" até logo!");
+    console.log("Tchau " + user.nome + " até logo!");
 }
 
 function fazPergunta() {
-    console.log(user1.nome+" como anda a família?");
+    console.log(user1.nome + " como anda a família?");
 }
 
 function encontro(f1, f2) {
@@ -58,17 +58,43 @@ function encontro(f1, f2) {
     f2(user2)
 }
 
-console.log("user1",user1);
-console.log("user2",user2);
+console.log("user1", user1);
+console.log("user2", user2);
 
 //encontro(oi,tchau)
 //encontro(oi,fazPergunta)
 
 encontro(oi, function () {
-    console.log(user2.nome+"... seu bobo!");
+    console.log(user2.nome + "... seu bobo!");
 })
 
-setInterval(function() {
+setTimeout(() => {
     let user = getFakeUser()
     oi(user)
-}, 1000)
+}, 2000)
+
+let elem = document.getElementById("btn1")
+console.log(elem);
+
+elem.addEventListener("click", () => {
+    console.log("alguem clicou");
+    let user = getFakeUser()
+    oi(user)
+})
+
+document.getElementById("btn2").addEventListener("click", () => {
+    console.log("chamei clique btn2");
+    let url = "https://geek-jokes.sameerkumar.website/api?format=json"
+
+    fetch(url).then((response) => {
+        console.log(response);
+        response.json().then((obj) => {
+            console.log(obj);
+        }).catch((erro) => {
+            console.log("Algum erro aconteceu na conversão", erro);
+        })
+    }).catch((erro) => {
+        console.log("Algum erro aconteceu na chamada", erro);
+    })
+})
+
