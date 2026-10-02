@@ -37,3 +37,6 @@
 * **TECH WEEK** (18/09) 
 * [Aula 06](./Aula06_25SET/) (25/09) 
     - CONTINUAÇÃO - Javascript - Funções
+* [Aula 07](./Aula07_02OUT/) (02/10) 
+    - Introdução IHC, Usabilidade e UX
+    - E-book 
