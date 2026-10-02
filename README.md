@@ -40,3 +40,5 @@
 * [Aula 07](./Aula07_02OUT/) (02/10) - ENCONTRO 1
     - Introdução IHC, Usabilidade e UX
     - [E-book - ENCONTRO 1](./Aula07_02OUT/E-book-Encontro1-IHC-Usabilidade-Acessibilidade.pdf) 
+    - Slides do encontro 1
+    - [Quiz do encontro](https://docs.google.com/forms/d/e/1FAIpQLScVYyutZw6ij04VHNCXH9wvvm3KiiRdPsVqPu0gkBVilNTOhg/viewform)
