@@ -42,3 +42,10 @@
     - [E-book - ENCONTRO 1](./Aula07_02OUT/E-book-Encontro1-IHC-Usabilidade-Acessibilidade.pdf) 
     - [Slides do encontro 1](./Aula07_02OUT/Encontro1-IHC-Usabilidade-Acessibilidade.pdf)
     - [Quiz do encontro](https://docs.google.com/forms/d/e/1FAIpQLScVYyutZw6ij04VHNCXH9wvvm3KiiRdPsVqPu0gkBVilNTOhg/viewform)
+* [Aula 08](./Aula08_09OUT/) (09/10) - ENCONTRO 2
+    - Heurísticas de Nilsen
+    - [E-book - ENCONTRO 2](./Aula08_09OUT/E-book-Encontro%202.pdf) 
+    - [Slides do encontro 2](./Aula08_09OUT/Encontro2.pdf)
+    - [Quiz do encontro](https://docs.google.com/forms/d/e/1FAIpQLSeofKlS6nsFjJMVR5RT4hrnDcHHiIfs6448EudGXBRqztQfVA/viewform)
+
+
