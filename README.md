@@ -51,5 +51,5 @@
     - UX - Experiência do Usuário
     - [E-book - ENCONTRO 3](./Aula09_16OUT/E-book%20·%20Encontro%203.pdf) 
     - [Slides do encontro 2](./Aula09_16OUT/Encontro%203.pdf)
-    - [Quiz do encontro]()
+    - [Quiz do encontro](https://docs.google.com/forms/d/e/1FAIpQLSeLOO41eAy7qEHBTXJZRj_H8fThdq8TZXfa9fzFsqUMtX3xJQ/viewform)
 
