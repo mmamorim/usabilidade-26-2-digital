@@ -47,5 +47,9 @@
     - [E-book - ENCONTRO 2](./Aula08_09OUT/E-book-Encontro%202.pdf) 
     - [Slides do encontro 2](./Aula08_09OUT/Encontro2.pdf)
     - [Quiz do encontro](https://docs.google.com/forms/d/e/1FAIpQLSeofKlS6nsFjJMVR5RT4hrnDcHHiIfs6448EudGXBRqztQfVA/viewform)
-
+* [Aula 09](./Aula09_16OUT/) (16/10) - ENCONTRO 3
+    - UX - Experiência do Usuário
+    - [E-book - ENCONTRO 3](./Aula09_16OUT/E-book%20·%20Encontro%203.pdf) 
+    - [Slides do encontro 2](./Aula09_16OUT/Encontro%203.pdf)
+    - [Quiz do encontro]()
 
